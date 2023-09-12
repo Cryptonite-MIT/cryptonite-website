@@ -140,6 +140,11 @@ table {
     box-sizing: border-box;
 }
 
+.navbar {
+    position: fixed;
+    width: auto;
+}
+
 .s1 {
     background: -webkit-gradient(
         linear,
@@ -175,21 +180,32 @@ table {
     padding: 1rem;
 }
 .titlehead {
-    font-size: 3em;
+    font-size: 3vw;
     color: #0b9444;
     margin-top: -25px;
     padding-top: 0.5em;
     font-family: "Press Start 2P", monospace;
 }
 .subtitlehead {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: #ffffff;
     margin-top: -30px;
     font-family: "Press Start 2P", monospace;
 }
+
+@media (max-width: 600px) {
+    .titlehead {
+        font-size: 6vw;
+    }
+
+    .subtitlehead {
+        font-size: 4vw;
+    }
+}
+
 .title {
     font-family: "Press Start 2P", sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     padding-bottom: 0.5em;
 }
 
