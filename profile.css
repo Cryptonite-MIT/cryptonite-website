@@ -40,11 +40,13 @@
     position: relative;
 }
 .card0 {
-    background: url("/people/cynthia.jpg") center center no-repeat;
+    background: url("/people/KunyalikGarg_teamLeader.jpeg") center center
+        no-repeat;
     background-size: 300px;
 }
 .card0:hover {
-    background: url("/people/cynthiacol.jpg") left center no-repeat;
+    background: url("/people/KunyalikGarg_teamLeader.jpeg") left center
+        no-repeat;
     background-size: 350px;
 }
 .card0:hover h2 {
@@ -54,11 +56,13 @@
     opacity: 1;
 }
 .card1 {
-    background: url("/people/aman.jpg") center center no-repeat;
+    background: url("/people/YashMandhania_AttackDefenseHead.jpg") center center
+        no-repeat;
     background-size: 300px;
 }
 .card1:hover {
-    background: url("/people/amancol.jpg") left center no-repeat;
+    background: url("/people/YashMandhania_AttackDefenseHead.jpg") left center
+        no-repeat;
     background-size: 350px;
 }
 .card1:hover h2 {
@@ -68,11 +72,12 @@
     opacity: 1;
 }
 .card2 {
-    background: url("/people/kaustubh.jpg") center center no-repeat;
+    background: url("/people/RayhanFaizel_BinExploit.jpg") center center
+        no-repeat;
     background-size: 300px;
 }
 .card2:hover {
-    background: url("/people/kaustubhcol.jpg") left center no-repeat;
+    background: url("/people/RayhanFaizel_BinExploit.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card2:hover h2 {
@@ -83,11 +88,13 @@
 }
 
 .card3 {
-    background: url("/people/rajat.jpeg") center center no-repeat;
+    background: url("/people/ADITHI_BHAT_RESEARCH_HEAD.jpg") center center
+        no-repeat;
     background-size: 300px;
 }
 .card3:hover {
-    background: url("/people/rajatcol.jpeg") left center no-repeat;
+    background: url("/people/ADITHI_BHAT_RESEARCH_HEAD.jpg") left center
+        no-repeat;
     background-size: 350px;
 }
 .card3:hover h2 {
@@ -97,11 +104,13 @@
     opacity: 1;
 }
 .card4 {
-    background: url("/people/haseeb.jpg") center center no-repeat;
+    background: url("/people/DhananjayRana_WebExploitationHead.jpg") center
+        center no-repeat;
     background-size: 300px;
 }
 .card4:hover {
-    background: url("/people/haseebcol.jpg") left center no-repeat;
+    background: url("/people/DhananjayRana_WebExploitationHead.jpg") left center
+        no-repeat;
     background-size: 350px;
 }
 .card4:hover h2 {
@@ -111,11 +120,13 @@
     opacity: 1;
 }
 .card5 {
-    background: url("/people/akshayablk.jpeg") center center no-repeat;
+    background: url("/people/LuhitAtluri_CryptographyHead.jpg") center center
+        no-repeat;
     background-size: 300px;
 }
 .card5:hover {
-    background: url("/people/akshaya.jpeg") left center no-repeat;
+    background: url("/people/LuhitAtluri_CryptographyHead.jpg") left center
+        no-repeat;
     background-size: 350px;
 }
 .card5:hover h2 {
