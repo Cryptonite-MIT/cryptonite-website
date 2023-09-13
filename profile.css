@@ -1,173 +1,175 @@
-.invi{
-  background:none;
-	clear:both;
-	float:none;
-	width:100%;
-	height:2px;
-	border:none;
+.invi {
+    background: none;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 2px;
+    border: none;
 }
 
 .containerz1 {
-
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
 }
 .borderz1 {
-  height: 369px;
-  width: 290px;
-  background: transparent;
-  border-radius: 10px;
-  transition: border 1s;
-  position: relative;
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
 }
 .borderz1:hover {
-  border: 1px solid #fff;
+    border: 1px solid #fff;
 }
 .cardz1 {
-  height: 379px;
-  width: 300px;
-  background: #808080;
-  border-radius: 10px;
-  transition: background 0.8s;
-  overflow: hidden;
-  background: #000;
-  box-shadow: 0 70px 63px -60px #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .card0 {
-  background: url("/people/cynthia.jpg") center center no-repeat;
-  background-size: 300px;
+    background: url("/people/KunyalikGarg_teamLeader.jpeg") center center
+        no-repeat;
+    background-size: 300px;
 }
 .card0:hover {
-  background: url("/people/cynthiacol.jpg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/KunyalikGarg_teamLeader.jpeg") left center
+        no-repeat;
+    background-size: 350px;
 }
 .card0:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card0:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 .card1 {
-  background: url("/people/aman.jpg") center center no-repeat;
-  background-size: 300px;
+    background: url("/people/YashMandhania_AttackDefenseHead.jpg") center center
+        no-repeat;
+    background-size: 300px;
 }
 .card1:hover {
-  background: url("/people/amancol.jpg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/YashMandhania_AttackDefenseHead.jpg") left center
+        no-repeat;
+    background-size: 350px;
 }
 .card1:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card1:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 .card2 {
-  background: url("/people/kaustubh.jpg") center center no-repeat;
-  background-size: 300px;
+    background: url("/people/RayhanFaizel_BinExploit.jpg") center center
+        no-repeat;
+    background-size: 300px;
 }
 .card2:hover {
-  background: url("/people/kaustubhcol.jpg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/RayhanFaizel_BinExploit.jpg") left center no-repeat;
+    background-size: 350px;
 }
-.card2:hover h2  {
-  opacity: 1;
+.card2:hover h2 {
+    opacity: 1;
 }
 .card2:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 
 .card3 {
-  background: url("/people/rajat.jpeg") center center no-repeat;
-  background-size: 300px;
+    background: url("/people/ADITHI_BHAT_RESEARCH_HEAD.jpg") center center
+        no-repeat;
+    background-size: 300px;
 }
 .card3:hover {
-  background: url("/people/rajatcol.jpeg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/ADITHI_BHAT_RESEARCH_HEAD.jpg") left center
+        no-repeat;
+    background-size: 350px;
 }
 .card3:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card3:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 .card4 {
-  background: url("/people/haseeb.jpg") center center no-repeat;
-  background-size: 300px;
- 
+    background: url("/people/DhananjayRana_WebExploitationHead.jpg") center
+        center no-repeat;
+    background-size: 300px;
 }
 .card4:hover {
-  background: url("/people/haseebcol.jpg") left center no-repeat;
-  background-size: 350px;
-
+    background: url("/people/DhananjayRana_WebExploitationHead.jpg") left center
+        no-repeat;
+    background-size: 350px;
 }
 .card4:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card4:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 .card5 {
-  background: url("/people/akshayablk.jpeg") center center no-repeat;
-  background-size: 300px;
-  
+    background: url("/people/LuhitAtluri_CryptographyHead.jpg") center center
+        no-repeat;
+    background-size: 300px;
 }
 .card5:hover {
-  background: url("/people/akshaya.jpeg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/LuhitAtluri_CryptographyHead.jpg") left center
+        no-repeat;
+    background-size: 350px;
 }
 .card5:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card5:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
 .card6 {
-  background: url("/people/sohomblk.jpg") center center no-repeat;
-  background-size: 300px;
-  
+    background: url("/people/sohomblk.jpg") center center no-repeat;
+    background-size: 300px;
 }
 .card6:hover {
-  background: url("/people/sohom.jpg") left center no-repeat;
-  background-size: 350px;
+    background: url("/people/sohom.jpg") left center no-repeat;
+    background-size: 350px;
 }
 .card6:hover h2 {
-  opacity: 1;
+    opacity: 1;
 }
 .card6:hover .fa {
-  opacity: 1;
+    opacity: 1;
 }
-
-
-
-
 
 .z1 {
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 1.1em;
-  color: #fff;
-  margin: 20px 20px 0 20px;
-  opacity: 0;
-  transition: opacity 1s;
-  margin-top: 16rem;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 20px 20px 0 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    margin-top: 16rem;
 }
 .z2 {
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 1.2em;
-  color: #fff;
-  margin: 20px 20px 0 20px;
-  opacity: 0;
-  transition: opacity 1s;
-  margin-top: 16rem;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 20px 20px 0 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    margin-top: 16rem;
 }
 .z3 {
-    font-family: 'VT323', sans-serif;
+    font-family: "VT323", sans-serif;
     font-size: 1.2em;
     color: #fff;
     margin: 0px 20px 0 20px;
@@ -175,44 +177,44 @@
     transition: opacity 1s;
 }
 .z4 {
-  font-family: 'VT323', sans-serif;
-  color: #fff;
-  margin: 0px 20px 0 20px;
-  opacity: 0;
-  transition: opacity 1s;
-  font-size: 1.2em;
+    font-family: "VT323", sans-serif;
+    color: #fff;
+    margin: 0px 20px 0 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 1.2em;
 }
 .boardicons {
-  opacity: 0;
-  transition: opacity 1s;
-  color: #fff;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #fff;
 }
 .iconsz1 {
-  position: absolute;
-  fill: #fff;
-  color: #fff;
-  height: 50px;
-  top: 226px;
-  width: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: -13rem
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 50px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -13rem;
 }
-.splitTex{
-  font-size: 1.23em;
+.splitTex {
+    font-size: 1.23em;
 }
-#margin-rep{
-  margin-bottom: -0.06em;
+#margin-rep {
+    margin-bottom: -0.06em;
 }
-#margin-rep-2{
-  margin-bottom: -1.1em;
+#margin-rep-2 {
+    margin-bottom: -1.1em;
 }
-#margin-rep-3{
-  margin-bottom: -1.5em;
+#margin-rep-3 {
+    margin-bottom: -1.5em;
 }
 
-#imgfit{
-  object-fit: cover;
+#imgfit {
+    object-fit: cover;
 }
