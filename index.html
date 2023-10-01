@@ -118,8 +118,7 @@
                 <div class="hero-body">
                     <div class="container is-max-widescreen">
                         <h2
-                            class="title heads has-text-centered"
-                            id="statscol"
+                            class="title heads has-text-centered statscol"
                             data-aos="fade-up"
                         >
                             Who are We?
@@ -149,20 +148,13 @@
             <section class="hero">
                 <div class="hero-body">
                     <div class="container">
-                        <div class="columns is-centered">
-                            <div
-                                class="columns container is-max-desktop"
-                                id="vidaspect"
-                            >
-                                <video width="73%" height="auto" controls>
-                                    <source
-                                        src="/assets/vid.mp4"
-                                        type="video/mp4"
-                                        data-aos="fade-left"
-                                    />
-                                </video>
-                            </div>
-                        </div>
+                        <video width="73%" height="auto" controls>
+                            <source
+                                src="/assets/vid.mp4"
+                                type="video/mp4"
+                                data-aos="fade-left"
+                            />
+                        </video>
                     </div>
                 </div>
             </section>
@@ -172,11 +164,7 @@
             <section class="hero is-medium has-text-centered">
                 <div class="hero-body">
                     <div class="container">
-                        <h1
-                            class="title heads"
-                            id="statscol"
-                            data-aos="fade-left"
-                        >
+                        <h1 class="title heads statscol" data-aos="fade-left">
                             Our Subsystems
                         </h1>
                         <br />
@@ -381,8 +369,7 @@
                                     <div class="columns">
                                         <div class="column is-8">
                                             <h1
-                                                class="title m-t-60"
-                                                id="statscol"
+                                                class="title m-t-60 statscol"
                                                 data-aos="zoom-out-down"
                                             >
                                                 CTFtime Stats
@@ -405,8 +392,7 @@
                                                 for national prototype round.
                                             </h2>
                                             <h1
-                                                class="title m-t-60 mt-6"
-                                                id="statscol"
+                                                class="title m-t-60 mt-6 statscol"
                                                 data-aos="zoom-out-down"
                                             >
                                                 Member Achievements
@@ -439,6 +425,7 @@
 
                                         <div class="column has-text-centered">
                                             <img
+                                                id="ctftimeImg"
                                                 class="m-t-50 hvr-grow"
                                                 src="./img/ctftime.png"
                                                 data-aos="fade-left"
@@ -454,22 +441,19 @@
         </section>
 
         <section class="hero is-medium" id="members">
-            <div class="hero-body">
+            <div id="board-area" class="hero-body">
                 <div class="container">
                     <div class="columns is-centered">
                         <div class="column is-10">
                             <div class="sub-section">
                                 <h3
-                                    class="title is-size-3 has-text-centered"
-                                    id="statscol"
+                                    class="title is-size-3 has-text-centered statscol"
+                                    id="board-area-heading"
                                     data-aos="zoom-out"
                                 >
                                     Board Members
                                 </h3>
-                                <hr class="hrhack" />
-                                <hr class="hrhack" />
-                                <hr class="hrhack" />
-                                <div class="containerz1 pb-auto">
+                                <div class="containerz1 pb-auto cards-grid">
                                     <div class="cardz1 card0">
                                         <div class="borderz1">
                                             <h2 class="z1">Kunyalik Gark</h2>
@@ -551,9 +535,6 @@
                                                 ></a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="container is-fluid">
-                                        <hr class="invi" />
                                     </div>
                                     <div class="cardz1 card3">
                                         <div class="borderz1">
@@ -660,22 +641,22 @@
                     class="columns is-multiline is-centered container is-widescreen"
                 >
                     <div
-                        class="column is-4-fullhd is-3-widescreen is-4-desktop is-6-tablet is-12-mobile mb-6"
+                        class="column is-4-fullhd is-3-widescreen is-4-desktop is-6-tablet is-12-mobile mb-6 footer-center"
                     >
-                        <a href="#" class="logo is-flex is-centered titlehead">
+                        <a
+                            href="#landing"
+                            class="logo is-flex is-centered titlehead"
+                        >
                             Cryptonite
                         </a>
                         <p
                             class="footer-description has-text-centered footertext is-size-4"
                         >
-                            &nbsp;&nbsp;&nbsp;Made with
-                            <span class="hvr-grow">❤️</span> in Manipal
+                            Made with <span class="hvr-grow">❤️</span> in
+                            Manipal
                         </p>
                         <hr class="hrhack" />
-                        <div
-                            class="social-links is-flex ml-6 pl-9"
-                            id="allsocials"
-                        >
+                        <div class="social-links is-flex pl-9" id="allsocials">
                             <a
                                 href="https://www.instagram.com/cryptonite_mit/"
                                 target="_blank"
@@ -706,14 +687,16 @@
 
                 <div class="container copyright position-bottom is-fluid">
                     <div class="copyright-text has-text-centered">
-                        Copyright © Cryptonite 2023<br />Developed by
+                        Copyright © Cryptonite 2023<br /><br />
+                        Developed by
                         <a
                             href="https://www.linkedin.com/in/rishabh-das-570822166"
                             target="_blank"
                         >
                             Rishabh Das</a
                         >
-                        <br />Revamped by
+                        <br /><br />
+                        Revamped by
                         <a href="https://github.com/ayushashi11" target="_blank"
                             >Prabhakar Dev</a
                         >,

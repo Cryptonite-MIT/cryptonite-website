@@ -25,6 +25,7 @@
 .borderz1:hover {
     border: 1px solid #fff;
 }
+
 .cardz1 {
     height: 379px;
     width: 300px;
@@ -217,4 +218,46 @@
 
 #imgfit {
     object-fit: cover;
+}
+
+#board-area {
+    padding: 6rem 4.5rem;
+}
+
+#board-area-heading {
+    margin-bottom: 5rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+    #board-area {
+        padding: 4rem 4.5rem;
+    }
+
+    #board-area-heading {
+        margin-bottom: 3rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards-grid {
+        grid-template-columns: none;
+        justify-content: center;
+    }
 }

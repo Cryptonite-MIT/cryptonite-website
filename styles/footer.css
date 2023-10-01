@@ -17,7 +17,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-left: 2.1em;
 }
 
 .social-links a:hover {
@@ -71,6 +70,24 @@
 }
 
 .copyright-text {
-    font-size: 15px;
+    font-family: sans-serif;
+    font-size: 1rem;
     padding: 25px 0;
+}
+
+#allsocials {
+    display: flex;
+    gap: 3rem;
+}
+
+@media (max-width: 1100px) {
+    #allsocials {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #allsocials {
+        gap: 1rem;
+    }
 }
