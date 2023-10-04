@@ -204,7 +204,7 @@ table {
 
 .title {
     font-family: "Press Start 2P", sans-serif;
-    font-size: 0.75em;
+    font-size: 1.5rem;
     padding-bottom: 0.5em;
 }
 
@@ -342,7 +342,7 @@ canvas {
     vertical-align: middle;
 }
 
-#statscol {
+.statscol {
     color: #0b9444;
 }
 
@@ -559,4 +559,22 @@ h3 {
 
 #bgshiz {
     background-color: #1e1e1e;
+}
+
+/* centre video */
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#ctftimeImg {
+    max-width: 250px;
+    margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+    #ctftimeImg {
+        display: none;
+    }
 }

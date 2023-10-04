@@ -1,831 +1,727 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Cryptonite - Official Cybersecurity Student Project of MIT Manipal
+        </title>
+        <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+        />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/subcards.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/profile.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Cryptonite - Official Cybersecurity Student Project of MIT Manipal</title>
-  <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="./subcards.css" />
-  <link rel="stylesheet" href="./footer.css" />
-  <link rel="stylesheet" href="./profile.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-</head>
+    <body>
+        <div class="custom-scrollbar">
+            <section class="hero is-fullheight s1">
+                <div class="hero-head">
+                    <nav
+                        class="navbar is-fixed-top is-light is-success asdasd"
+                        id="bgshiz"
+                    >
+                        <div class="container is-light">
+                            <div class="navbar-brand">
+                                <a
+                                    class="navbar-item is-size-4"
+                                    href="#landing"
+                                >
+                                    Cryptonite
+                                </a>
+                            </div>
+                            <div id="navbarMenuHeroC" class="navbar-menu">
+                                <div class="navbar-end">
+                                    <!-- <a
+                                        class="navbar-item is-active animate__animated animate__headShake animate__infinite"
+                                        href="#"
+                                        target="_blank"
+                                    >
+                                        NiteCTF
+                                    </a> -->
+                                    <a class="navbar-item" href="#aboutus">
+                                        About Us
+                                    </a>
+                                    <a class="navbar-item" href="#subs">
+                                        Subsystems
+                                    </a>
+                                    <a class="navbar-item" href="#ctfstats">
+                                        Achievements
+                                    </a>
+                                    <a class="navbar-item" href="#members">
+                                        Team
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div id="particles-js"></div>
+                <div class="hero-body" id="landing">
+                    <div class="container has-text-centered">
+                        <img
+                            src="./img/crypto-perfect-2.png"
+                            alt="cryptonite logo"
+                            id="logo"
+                            class="hvr-grow"
+                        />
 
-<body >
-  <div class="custom-scrollbar">
+                        <p class="subtitlehead" data-aos="flip-up">We are</p>
 
-    <section class="hero is-fullheight s1">
-      <div class="hero-head">
-        <nav class="navbar is-fixed-top is-light is-success asdasd" id="bgshiz">
-          <div class="container is-light">
-            <div class="navbar-brand">
-              <a class="navbar-item is-size-4" href="#landing">
-               Cryptonite
-              </a>
+                        <div class="hvr-grow">
+                            <p class="titlehead" data-aos="flip-up">
+                                Cryptonite
+                            </p>
+                            <br />
+                            <!-- <p class="subtitlehead">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    style="text-decoration: underline"
+                                    >and (We are Recruiting!)</a
+                                >
+                            </p> -->
+                            <!--data-aos="flip-up"-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hero is-halfheight" id="aboutus">
+                <div class="hero-body">
+                    <div class="container is-max-widescreen">
+                        <h2
+                            class="title heads has-text-centered statscol"
+                            data-aos="fade-up"
+                        >
+                            Who are We?
+                        </h2>
+                        <hr class="hrhack" />
+                        <p
+                            class="subtitle subtext"
+                            id="whowe"
+                            data-aos="fade-up"
+                        >
+                            Cryptonite is a student project team of Manipal
+                            Institute of Technology. Our team works in the field
+                            of ethical hacking and cybersecurity. Our areas of
+                            focus are cryptography, forensics, research, reverse
+                            engineering, web exploitation and binary
+                            exploitation. We strive to have a deeper
+                            understanding of traditional methods and techniques
+                            in cybersecurity and their implications in today’s
+                            world.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <hr class="invi" />
             </div>
-            <div id="navbarMenuHeroC" class="navbar-menu">
-              <div class="navbar-end">
-                <!--a class="navbar-item is-active animate__animated animate__headShake animate__infinite" href="https://ctf.cryptonite.team" target="_blank" >
-                  NiteCTF
-                </a-->
-                <a class="navbar-item" href="#aboutus">
-                  About Us
-                </a>
-                <a class="navbar-item" href="#subs">
-                  Subsystems
-                </a>
-                <a class="navbar-item" href="#ctfstats">
-                  Achievements
-                </a>
-                <a class="navbar-item" href="#members">
-                  Team
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div id="particles-js"></div>
-      <div class="hero-body" id="landing">
-        <div class="container has-text-centered">
-          <img src="./img/crypto-perfect-2.png" alt="cryptonite logo" id="logo" class="hvr-grow">
-           
-               <p class="subtitlehead" data-aos="flip-up">We are</p>
-            
-            <div class="hvr-grow">
-               <p class="titlehead" data-aos="flip-up">
-                Cryptonite
-               </p><br>
-               <p class="subtitlehead"><a href="https://join.cryptonitemit.com/" target="_blank" style="text-decoration: underline;">and (We are Recruiting!)</a></p> <!--data-aos="flip-up"-->
-            </div>
-        
-
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="container">
+                        <video width="73%" height="auto" controls>
+                            <source
+                                src="/assets/vid.mp4"
+                                type="video/mp4"
+                                data-aos="fade-left"
+                            />
+                        </video>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-    </section>
 
-
-
-
-    <section class="hero is-halfheight" id="aboutus">
-      <div class="hero-body">
-        <div class="container is-max-widescreen" >
-          <h2 class="title heads has-text-centered" id="statscol" data-aos="fade-up">
-            Who are We?
-          </h2>
-          <hr class="hrhack">
-          <p class="subtitle subtext" id="whowe" data-aos="fade-up">
-            Cryptonite is a student project team of Manipal Institute of Technology. Our team works in the field of
-            ethical hacking and cybersecurity. Our areas of focus are cryptography, forensics, research, reverse
-            engineering, web exploitation and binary exploitation. We strive to have a deeper understanding of traditional methods and
-            techniques in cybersecurity and their implications in today’s world.
-          </p>
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <hr class="invi">
-    </div>
-    <section class="hero ">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-centered">
-
-            <div class="columns container is-max-desktop" id="vidaspect">
-              <video width="73%" height="auto" controls>
-                <source src="/assets/vid.mp4" type="video/mp4" data-aos="fade-left">
-              </video>
-
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-  </section>
-
-
-  <section class="hero is-fullheight bg2 canvas" id="subs">
-    <section class="hero is-medium has-text-centered">
-      <div class="hero-body ">
-        <div class="container " >
-          <h1 class="title heads" id="statscol" data-aos="fade-left">
-            Our Subsystems
-          </h1>
-          <br>
-          <div class="tocenter heads">
-            <div class="containern1 zewrap">
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/code_128.png">
-                    <h3 class="h3fontch">Cryptography</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>It involves using mathematical concepts and a set of calculations in order to maintain integrity
-                      and security of the information being transmitted through various encryption algorithms. It ensures data protection and is widely used.</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/anonymous.png" class="beblack">
-                    <h3 class="h3fontch">Forensics</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>Mainly used in cybercrimes, it is the investigative process of collecting, recovering, analysing
-                      and reporting any valuable digital information in devices. It is used to identify network
-                      and memory vulnerabilities and develop ways to mitigate them.</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/design_128.png">
-                    <h3 class="h3fontch">Research</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>We conduct research on topics such as Side-Channel Attacks, Intrusion Detection and Privacy
-                      Enabled Machine Learning. Apart from that we also deal with the different approaches which bring
-                      together other fields such as AI/ML & Quantum Computing.</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/cracking.png" class="beblack">
-                    <h3 class="h3fontch">Reverse Engineering</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>It is the task of deconstructing software to extract information from it. Reverse engineering
-                      helps to make a system robust hence ensuring that a system doesn’t have any significant security
-                      flaws and protects it from hackers and spyware.</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/internet.png" class="beblack">
-                    <h3 class="h3fontch">Web Exploitation</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>It is a commonly used method to attack websites. It takes advantage of vulnerabilities that exist
-                      in order to gain control of the site, such as hosting server, which could result in loss or theft
-                      of information. SQL Injection is a common method of Web Exploitation.</p>
-                  </div>
-                </div>
-
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/virus.png" class="beblack">
-                    <h3 class="h3fontch">Attack / Defense</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p> A type of cybersecurity competition where competing teams attempt to find security
-                      vulnerabilities in services run by the opposing teams. Each team works finding vulnerabilities in
-                      other team’s services while protecting their own. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-sub " data-aos="zoom-in">
-                <div class="face face1">
-                  <div class="content facehead">
-                    <img src="/assets/research.png" class="beblack">
-                    <h3 class="h3fontch">Design & Management</h3>
-                  </div>
-                </div>
-                <div class="face face2">
-                  <div class="content facecont">
-                    <p>We coordinate the working of the different subsystems of the team. We handle the finance,
-                      sponsorship and publicity with regards to all events held by the team, along with handling the
-                      Social media handles and the design and graphics</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <br />
-          </div>
-    </section>
-    <section id="ctfstats">
-    <div class="container is-fluid"></div>
-    <section class="hero is-halfheight bgchange">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-centered">
-            <div class="column is-10">
-              <div class="columns">
-                <div class="column is-8">
-                  <h1 class="title m-t-60" id="statscol" data-aos="zoom-out-down">CTFtime Stats</h1>
-                  <h2 class="subtitle has-text-white my-auto is-size-4 h2fontch" data-aos="fade-right">We are currently ranked amongst the top
-                    0.6% of the teams globally and are part of the top 5 academic teams in the Country (rank #4 hehe) and ranked #8 in all teams in India. We secured the 9th position in CSAW'22 in India and qualified for World CSAW'22 Finals.
-                    Our team got selected in Quantum Hackathon organized by QETCI amongst the top 65 teams for national prototype round.</h2>
-                  <h1 class="title m-t-60 mt-6" id="statscol" data-aos="zoom-out-down">Member Achievements</h1>
-                  <h2 class="subtitle has-text-white my-auto is-size-4 h2fontch" data-aos="fade-right">Our former Board member has secured the
-                    2nd rank in inCTF held by Amirta University in 2019. Our member was also part of the winning team of
-                    last year’s Quarantine CTF held during TechTatva.
-                    Our former Head of Reverse Engineering, Sohom Datta was rewarded 3133.70 USD/(~2 lakh INR) for
-                    identifying a bug in one of Google's front-end open source libraries as part of Google's
-                    Vulnerability Rewards Program which ia a global initiative by Google to reward external contributors
-                    and security researchers that help in keeping their users safe.</h2>
-
-                </div>
-
-                <div class="column has-text-centered">
-                  <img class="m-t-50 hvr-grow" src="https://cryptonite.team/img/ctftime.png" data-aos="fade-left">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-  </section>
-
-
-  <section class="hero is-medium" id="members">
-    <div class="hero-body" >
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-10">
-            <div class="sub-section">
-              <h3 class="title is-size-3 has-text-centered" id="statscol" data-aos="zoom-out">Board Members</h3>
-              <hr class="hrhack">
-              <hr class="hrhack">
-              <hr class="hrhack">
-              <div class="containerz1 pb-auto">
-                <div class="cardz1 card0" >
-                  <div class="borderz1">
-                    <h2 class="z1 ">Kunyalik Gark</h2>
-                    <h2 class="z3">Team Leader</h2>
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-twitter boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
+        <section class="hero is-fullheight bg2 canvas" id="subs">
+            <section class="hero is-medium has-text-centered">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title heads statscol" data-aos="fade-left">
+                            Our Subsystems
+                        </h1>
+                        <br />
+                        <div class="tocenter heads">
+                            <div class="containern1 zewrap">
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img src="/assets/code_128.png" />
+                                            <h3 class="h3fontch">
+                                                Cryptography
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                It involves using mathematical
+                                                concepts and a set of
+                                                calculations in order to
+                                                maintain integrity and security
+                                                of the information being
+                                                transmitted through various
+                                                encryption algorithms. It
+                                                ensures data protection and is
+                                                widely used.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img
+                                                src="/assets/anonymous.png"
+                                                class="beblack"
+                                            />
+                                            <h3 class="h3fontch">Forensics</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                Mainly used in cybercrimes, it
+                                                is the investigative process of
+                                                collecting, recovering,
+                                                analysing and reporting any
+                                                valuable digital information in
+                                                devices. It is used to identify
+                                                network and memory
+                                                vulnerabilities and develop ways
+                                                to mitigate them.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img src="/assets/design_128.png" />
+                                            <h3 class="h3fontch">Research</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                We conduct research on topics
+                                                such as Side-Channel Attacks,
+                                                Intrusion Detection and Privacy
+                                                Enabled Machine Learning. Apart
+                                                from that we also deal with the
+                                                different approaches which bring
+                                                together other fields such as
+                                                AI/ML & Quantum Computing.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img
+                                                src="/assets/cracking.png"
+                                                class="beblack"
+                                            />
+                                            <h3 class="h3fontch">
+                                                Reverse Engineering
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                It is the task of deconstructing
+                                                software to extract information
+                                                from it. Reverse engineering
+                                                helps to make a system robust
+                                                hence ensuring that a system
+                                                doesn’t have any significant
+                                                security flaws and protects it
+                                                from hackers and spyware.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img
+                                                src="/assets/internet.png"
+                                                class="beblack"
+                                            />
+                                            <h3 class="h3fontch">
+                                                Web Exploitation
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                It is a commonly used method to
+                                                attack websites. It takes
+                                                advantage of vulnerabilities
+                                                that exist in order to gain
+                                                control of the site, such as
+                                                hosting server, which could
+                                                result in loss or theft of
+                                                information. SQL Injection is a
+                                                common method of Web
+                                                Exploitation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img
+                                                src="/assets/virus.png"
+                                                class="beblack"
+                                            />
+                                            <h3 class="h3fontch">
+                                                Attack / Defense
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                A type of cybersecurity
+                                                competition where competing
+                                                teams attempt to find security
+                                                vulnerabilities in services run
+                                                by the opposing teams. Each team
+                                                works finding vulnerabilities in
+                                                other team’s services while
+                                                protecting their own.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-sub" data-aos="zoom-in">
+                                    <div class="face face1">
+                                        <div class="content facehead">
+                                            <img
+                                                src="/assets/research.png"
+                                                class="beblack"
+                                            />
+                                            <h3 class="h3fontch">
+                                                Design & Management
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content facecont">
+                                            <p>
+                                                We coordinate the working of the
+                                                different subsystems of the
+                                                team. We handle the finance,
+                                                sponsorship and publicity with
+                                                regards to all events held by
+                                                the team, along with handling
+                                                the Social media handles and the
+                                                design and graphics
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="cardz1 card1">
-                  <div class="borderz1">
-                    <h2 class="z2">Yash Mandhania</h2>
-                    <h2 class="z4">Attack Defense Head</h2>
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i class="fa fa-github boardicons"
-                          aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="cardz1 card2">
-                  <div class="borderz1">
-                    <h2 class="z2">Rayhan Faizel</h2>
-                    <h2 class="z3">Binary Exploitation Head</h2>
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i class="fa fa-github boardicons"
-                          aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="container is-fluid">
-                  <hr class="invi">
-                </div>
-                <div class="cardz1 card3">
-                  <div class="borderz1">
-                    <h2 class="z1 splitTex">Adithi Bhat</h2>
-                    <h2 class="z3">Research Head</h2>
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i class="fa fa-twitter boardicons"
-                          aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
-                      </i>
-                    </div>
-                  </div>
-                </div>
-                <div class="cardz1 card4">
-                  <div class="borderz1">
-                    <h2 class="z1 splitTex">Dhananjay Rana</h2>
-                    <h2 class="z3">Web Exploitation Head</h2>
+            </section>
+            <section id="ctfstats">
+                <div class="container is-fluid"></div>
+                <section class="hero is-halfheight bgchange">
+                    <div class="hero-body">
+                        <div class="container">
+                            <div class="columns is-centered">
+                                <div class="column is-10">
+                                    <div class="columns">
+                                        <div class="column is-8">
+                                            <h1
+                                                class="title m-t-60 statscol"
+                                                data-aos="zoom-out-down"
+                                            >
+                                                CTFtime Stats
+                                            </h1>
+                                            <h2
+                                                class="subtitle has-text-white my-auto is-size-4 h2fontch"
+                                                data-aos="fade-right"
+                                            >
+                                                We are currently ranked amongst
+                                                the top 0.6% of the teams
+                                                globally and are part of the top
+                                                5 academic teams in the Country
+                                                (rank #4) and ranked #8 in all
+                                                teams in India. We secured the
+                                                9th position in CSAW'22 in India
+                                                and qualified for World CSAW'22
+                                                Finals. Our team got selected in
+                                                Quantum Hackathon organized by
+                                                QETCI amongst the top 65 teams
+                                                for national prototype round.
+                                            </h2>
+                                            <h1
+                                                class="title m-t-60 mt-6 statscol"
+                                                data-aos="zoom-out-down"
+                                            >
+                                                Member Achievements
+                                            </h1>
+                                            <h2
+                                                class="subtitle has-text-white my-auto is-size-4 h2fontch"
+                                                data-aos="fade-right"
+                                            >
+                                                Our former Board member has
+                                                secured the 2nd rank in inCTF
+                                                held by Amirta University in
+                                                2019. Our member was also part
+                                                of the winning team of last
+                                                year’s Quarantine CTF held
+                                                during TechTatva. Our former
+                                                Head of Reverse Engineering,
+                                                Sohom Datta was rewarded 3133.70
+                                                USD/(~2 lakh INR) for
+                                                identifying a bug in one of
+                                                Google's front-end open source
+                                                libraries as part of Google's
+                                                Vulnerability Rewards Program
+                                                which ia a global initiative by
+                                                Google to reward external
+                                                contributors and security
+                                                researchers that help in keeping
+                                                their users safe.
+                                            </h2>
+                                        </div>
 
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i class="fa fa-github boardicons"
-                          aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
+                                        <div class="column has-text-centered">
+                                            <img
+                                                id="ctftimeImg"
+                                                class="m-t-50 hvr-grow"
+                                                src="./img/ctftime.png"
+                                                data-aos="fade-left"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="cardz1 card5">
-                  <div class="borderz1">
-                    <h2 class="z2">Luhit Atluri</h2>
-                    <h2 class="z4">Cryptography Head</h2>
-                    <div class="iconsz1">
-                      <a href="" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i class="fa fa-twitter boardicons"
-                          aria-hidden="true"></i></a>
-                      <a href="" target="_blank"><i
-                          class="fa fa-instagram boardicons" aria-hidden="true"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- <hr class="hrhack">
-              <div class="containerz1">
-                <div class="cardz1 card6">
-                  <div class="borderz1">
-                    <h2 class="z1">Sohom Datta</h2>
-                    <h2 class="z3">Reverse Engineering head</h2>
-                    <div class="iconsz1">
-                      <a href="https://www.linkedin.com/in/sohom-datta-c29ob20k/" target="_blank"><i
-                          class="fa fa-linkedin boardicons" aria-hidden="true"></i></a>
-                      <a href="https://www.facebook.com/sohom.datta.14/" target="_blank"><i
-                          class="fa fa-facebook boardicons" aria-hidden="true"></i></a>
-                      <a href="https://github.com/sohomdatta1" target="_blank"><i class="fa fa-github boardicons"
-                          aria-hidden="true"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-  </section>
+                </section>
+            </section>
+        </section>
 
-  <!-- <section class="hero is-medium">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-10">
-            <div class="sub-section">
-              <h3 class="title is-size-3 has-text-centered" id="team" data-aos="zoom-out">Team</h3>
-              <hr class="hrhack">
-              <hr class="hrhack">
-              <hr class="hrhack">
-              <div class="section">
+        <section class="hero is-medium" id="members">
+            <div id="board-area" class="hero-body">
                 <div class="container">
-                  <div class="columns">
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image" >
-                          <figure class="image is-4by3">
-                            <img src="./people/teja.jpg" alt="Teja" id="imgfit">
-                          </figure>
+                    <div class="columns is-centered">
+                        <div class="column is-10">
+                            <div class="sub-section">
+                                <h3
+                                    class="title is-size-3 has-text-centered statscol"
+                                    id="board-area-heading"
+                                    data-aos="zoom-out"
+                                >
+                                    Board Members
+                                </h3>
+                                <div class="containerz1 pb-auto cards-grid">
+                                    <div class="cardz1 card0">
+                                        <div class="borderz1">
+                                            <h2 class="z1">Kunyalik Gark</h2>
+                                            <h2 class="z3">Team Leader</h2>
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-twitter boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardz1 card1">
+                                        <div class="borderz1">
+                                            <h2 class="z2">Yash Mandhania</h2>
+                                            <h2 class="z4">
+                                                Attack Defense Head
+                                            </h2>
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-github boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardz1 card2">
+                                        <div class="borderz1">
+                                            <h2 class="z2">Rayhan Faizel</h2>
+                                            <h2 class="z3">
+                                                Binary Exploitation Head
+                                            </h2>
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-github boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardz1 card3">
+                                        <div class="borderz1">
+                                            <h2 class="z1 splitTex">
+                                                Adithi Bhat
+                                            </h2>
+                                            <h2 class="z3">Research Head</h2>
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-twitter boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardz1 card4">
+                                        <div class="borderz1">
+                                            <h2 class="z1 splitTex">
+                                                Dhananjay Rana
+                                            </h2>
+                                            <h2 class="z3">
+                                                Web Exploitation Head
+                                            </h2>
+
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-github boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardz1 card5">
+                                        <div class="borderz1">
+                                            <h2 class="z2">Luhit Atluri</h2>
+                                            <h2 class="z4">
+                                                Cryptography Head
+                                            </h2>
+                                            <div class="iconsz1">
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-linkedin boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-twitter boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                                <a href="" target="_blank"
+                                                    ><i
+                                                        class="fa fa-instagram boardicons"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Charan Teja</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5">Web Exploitation</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5 mgb-1">
-                          <li><a href="https://www.linkedin.com/in/sai-charan-teja-ande-a660151b2/" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/205101-retr0/Latin-Arceus" target="_blank"><i
-                                class="fa fa-github"></i></a></li>
-                        </ul>
-                      </div>
                     </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/rishabh.jpeg" id="imgfit" alt="Rishabh">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Rishabh Das</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered" id="margin-rep">Web Exploitation &
-                              Web Development</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/rishabh-das-570822166" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/flyinspaghetti" target="_blank"><i
-                                class="fa fa-github"></i></a></li>
-                          <li><a href="https://instagram.com/theonerish" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/rishi.jpg" id="imgfit" alt="Vedant">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Vedant Rishi Das</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Reverse Engineering</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/vedant-rishi-das-0315841a2/" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/vedant130701" target="_blank"><i class="fa fa-github"></i></a>
-                          </li>
-                          <li><a href="https://www.instagram.com/vedant1307/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/purnima.jpg" alt="Purnima" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Purnima Jain</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Web Exploitation</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/purnima-jain-45356b199" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/purnimajai" target="_blank"><i class="fa fa-github"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="columns">
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/tanisha.jpg" alt="Tanisha" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Tanisha Agarwal</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Management</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://instagram.com/tanishaa.agarwal/" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://instagram.com/tanishaa.agarwal" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/sameer.jpeg" alt="Sameer" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Sameer Saxena</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Forensics</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/sameer-saxena-3a80911a7/" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/Sampai28" target="_blank"><i class="fa fa-github"></i></a>
-                          </li>
-                          <li><a href="https://www.instagram.com/_sameer28_/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/arkaja.jpg" alt="Arkaja" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Arkaja Sharan</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Cryptography</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/arkaja2811" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://instagram.com/arkaja_2811/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/tanvee.jpg" alt="Sritanvee" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Sritanvee Dabburi</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1" id="margin-rep-2">
-                              Management & Writing</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://instagram.com/tanvee_dabburi/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="columns">
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/swathi.jpeg" alt="Swathi" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered pb-5">Swathi C</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-6">Design & Graphics</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://instagram.com/swatxzzi/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/himanshu.jpg" alt="Himanshu" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Himanshu Sandhu</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-6 mgb-1">Management</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://instagram.com/himanshusandhu02/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/sushant.jpg" alt="Sushant" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Sushant Shekhar</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-6 mgb-1" id="margin-rep-3">
-                              Management & Writing</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/sushant-shekhar-53039b1b1" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://instagram.com/sushpicious/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/vignesh.jpg" alt="Vignesh" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered pb-5">Vignesh S</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Reverse Engineering &
-                              Cryptography</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/vignesh-senthilnathan-aa70331b8" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/senduz" target="_blank"><i class="fa fa-github"></i></a></li>
-                          <li><a href="https://www.instagram.com/vigneshatd/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="columns">
-                    <div class="column is-one-quarter hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/sitaraman.jpg" alt="Sitaraman" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">S Sitaraman</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Web Exploitation</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/sitaraman-s-b4647375" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/hackerbone" target="_blank"><i class="fa fa-github"></i></a>
-                          </li>
-                          <li><a href="https://www.instagram.com/_situuu_/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column is-one-quarter hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/yash.jpg" alt="Yash" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Yash Mandhania </p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Cryptography </p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-
-                          <li><a href="https://github.com/yashmandhania" target="_blank"><i
-                                class="fa fa-github"></i></a></li>
-                          <li><a href="https://www.instagram.com/yashwardhan_mandhania" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="column is-one-quarter hvr-grow">
-                      <div class="card" data-aos="flip-up">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="./people/kunyalik.jpg" alt="Kunyalik" id="imgfit">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media-content">
-                            <p class="title is-5 mg-small teamname mx-auto has-text-centered">Kunyalik Garg</p>
-                            <p class="subtitle is-4 teamw mx-auto has-text-centered pb-5 mgb-1">Forensics</p>
-                          </div>
-                        </div>
-                        <ul class="social-icons-team m-auto p-auto pb-5">
-                          <li><a href="https://www.linkedin.com/in/kunyalik/" target="_blank"><i
-                                class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://github.com/kunyalik" target="_blank"><i
-                                class="fa fa-github"></i></a></li>
-                          <li><a href="https://www.instagram.com/kunyalik/" target="_blank"><i
-                                class="fa fa-instagram"></i></a></li>
-
-                        </ul>
-                      </div>
-                    </div>
-
-
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-
-
-
-  </section> -->
-
-
-
-
-
-
-  <footer id="footer" class="mt-4">
-    <div class="container" data-aos="fade-up" data-aos-anchor-placement="center">
-        <div class="columns is-multiline is-centered container is-widescreen">
-            <div class="column is-4-fullhd is-3-widescreen is-4-desktop is-6-tablet is-12-mobile mb-6">
-                <a href="#" class="logo is-flex is-centered titlehead">
-                    Cryptonite
-                </a>
-                <p class="footer-description has-text-centered footertext is-size-4"> &nbsp;&nbsp;&nbsp;Made with <span class="hvr-grow">❤️</span> in Manipal</p>
-                <hr class="hrhack">
-                <div class="social-links is-flex ml-6 pl-9 " id="allsocials">
-                  
-                    <a href="https://www.instagram.com/cryptonite_mit/" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/cryptonitemanipal/" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/cryptonite-mit" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a href="teamcryptonite18@gmail.com" target="_blank">
-                        <i class="fa fa-envelope"></i>
-                    </a>
                 </div>
             </div>
-      </div>
-           
-    <div class="container copyright position-bottom is-fluid">
-        <div class="copyright-text has-text-centered">
-            Copyright © Cryptonite 2023<br/>Developed by <a href="http://https://www.linkedin.com/in/rishabh-das-570822166" target="_blank"> Rishabh Das</a>
-            <br/>Revamped by <a href="https://github.com/ayushashi11" target="_blank">Prabhakar Dev</a>, <a href="https://github.com/aghogwarts" target="_blank">Ansh Goyal</a> & <a href="https://github.com/sibi361" target="_blank">sibi361</a>
-    </div>
-     
-  </footer>
-  </div>
+        </section>
 
+        <footer id="footer" class="mt-4">
+            <div
+                class="container"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center"
+            >
+                <div
+                    class="columns is-multiline is-centered container is-widescreen"
+                >
+                    <div
+                        class="column is-4-fullhd is-3-widescreen is-4-desktop is-6-tablet is-12-mobile mb-6 footer-center"
+                    >
+                        <a
+                            href="#landing"
+                            class="logo is-flex is-centered titlehead"
+                        >
+                            Cryptonite
+                        </a>
+                        <p
+                            class="footer-description has-text-centered footertext is-size-4"
+                        >
+                            Made with <span class="hvr-grow">❤️</span> in
+                            Manipal
+                        </p>
+                        <hr class="hrhack" />
+                        <div class="social-links is-flex pl-9" id="allsocials">
+                            <a
+                                href="https://www.instagram.com/cryptonite_mit/"
+                                target="_blank"
+                            >
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/cryptonitemanipal/"
+                                target="_blank"
+                            >
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/company/cryptonite-mit"
+                                target="_blank"
+                            >
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a
+                                href="mailto:teamcryptonite18@gmail.com"
+                                target="_blank"
+                            >
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="container copyright position-bottom is-fluid">
+                    <div class="copyright-text has-text-centered">
+                        Copyright © Cryptonite 2023<br /><br />
+                        Developed by
+                        <a
+                            href="https://www.linkedin.com/in/rishabh-das-570822166"
+                            target="_blank"
+                        >
+                            Rishabh Das</a
+                        >
+                        <br /><br />
+                        Revamped by
+                        <a href="https://github.com/ayushashi11" target="_blank"
+                            >Prabhakar Dev</a
+                        >,
+                        <a href="https://github.com/aghogwarts" target="_blank"
+                            >Ansh Goyal</a
+                        >
+                        &
+                        <a href="https://github.com/sibi361" target="_blank"
+                            >sibi361</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="./particles.min.js"></script>
-  <script src="./particles-try.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 200,
-      duration: 700,
-      easing: 'ease-in-sine',
-      delay: 200,
-    });
-  </script>
-
-</body>
-
+        <script src="./assets/particles.min.js"></script>
+        <script src="./assets/particles-try.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 200,
+                duration: 500,
+                easing: "ease-in-sine",
+                delay: 200,
+            });
+        </script>
+    </body>
 </html>
