@@ -98,11 +98,11 @@
     opacity: 1;
 }
 .card4 {
-    background: url("/people/Siddharth\ Mittal.heic") center center no-repeat;
+    background: url("/people/Siddharth\ Mittal.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card4:hover {
-    background: url("/people/Siddharth\ Mittal.heic") left center no-repeat;
+    background: url("/people/Siddharth\ Mittal.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card4:hover h2 {
