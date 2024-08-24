@@ -41,11 +41,11 @@
     position: relative;
 }
 .card0 {
-    background: url("/people/Shreyyyk\ .jpg") center center no-repeat;
+    background: url("/people/Prashant.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card0:hover {
-    background: url("/people/Shreyyyk\ .jpg") left center no-repeat;
+    background: url("/people/Prashant.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card0:hover h2 {
@@ -55,11 +55,11 @@
     opacity: 1;
 }
 .card1 {
-    background: url("/people/Kumud.jpeg") center center no-repeat;
+    background: url("/people/Ansh.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card1:hover {
-    background: url("/people/Kumud.jpeg") left center no-repeat;
+    background: url("/people/Ansh.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card1:hover h2 {
@@ -69,11 +69,11 @@
     opacity: 1;
 }
 .card2 {
-    background: url("/people/Daksh\ .jpg") center center no-repeat;
+    background: url("/people/Rohan\.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card2:hover {
-    background: url("/people/Daksh\ .jpg") left center no-repeat;
+    background: url("/people/Rohan\.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card2:hover h2 {
@@ -84,11 +84,11 @@
 }
 
 .card3 {
-    background: url("/people/Prabhakar.jpg") center center no-repeat;
+    background: url("/people/Akash.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card3:hover {
-    background: url("/people/Prabhakar.jpg") left center no-repeat;
+    background: url("/people/Akash.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card3:hover h2 {
@@ -98,11 +98,11 @@
     opacity: 1;
 }
 .card4 {
-    background: url("/people/Siddharth\ Mittal.jpg") center center no-repeat;
+    background: url("/people/Yogesh.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card4:hover {
-    background: url("/people/Siddharth\ Mittal.jpg") left center no-repeat;
+    background: url("/people/Yogesh.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card4:hover h2 {
@@ -112,11 +112,11 @@
     opacity: 1;
 }
 .card5 {
-    background: url("/people/Dhruthi.jpg") center center no-repeat;
+    background: url("/people/Tanmay.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card5:hover {
-    background: url("/people/Dhruthi.jpg") left center no-repeat;
+    background: url("/people/Tanmay.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card5:hover h2 {
@@ -126,11 +126,11 @@
     opacity: 1;
 }
 .card6 {
-    background: url("/people/Aditi.jpeg") center center no-repeat;
+    background: url("/people/Avanish.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card6:hover {
-    background: url("/people/Aditi.jpeg") left center no-repeat;
+    background: url("/people/Avanish.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card6:hover h2 {
@@ -140,11 +140,11 @@
     opacity: 1;
 }
 .card7 {
-    background: url("/people/Sriyans.jpeg") center center no-repeat;
+    background: url("/people/Gurmann.jpg") center center no-repeat;
     background-size: 300px;
 }
 .card7:hover {
-    background: url("/people/Sriyans.jpeg") left center no-repeat;
+    background: url("/people/Gurmann.jpg") left center no-repeat;
     background-size: 350px;
 }
 .card7:hover h2 {
@@ -154,10 +154,55 @@
     opacity: 1;
 }
 
+.card8 {
+    background: url("/people/Rupak.jpg") center center no-repeat;
+    background-size: 300px;
+}
+.card8:hover {
+    background: url("/people/Rupak.jpg") left center no-repeat;
+    background-size: 350px;
+}
+.card8:hover h2 {
+    opacity: 1;
+}
+.card8:hover .fa {
+    opacity: 1;
+}
+
+.card9 {
+    background: url("/people/Nishant.jpg") center center no-repeat;
+    background-size: 300px;
+}
+.card9:hover {
+    background: url("/people/Nishant.jpg") left center no-repeat;
+    background-size: 350px;
+}
+.card9:hover h2 {
+    opacity: 1;
+}
+.card9:hover .fa {
+    opacity: 1;
+}
+
+.card10 {
+    background: url("/people/Uday.jpg") center center no-repeat;
+    background-size: 300px;
+}
+.card10:hover {
+    background: url("/people/Uday.jpg") left center no-repeat;
+    background-size: 350px;
+}
+.card10:hover h2 {
+    opacity: 1;
+}
+.card10:hover .fa {
+    opacity: 1;
+}
+
 .z1 {
     font-family: "Press Start 2P", sans-serif;
     font-size: 1.1em;
-    color: #fff;
+    color: #0b9444;
     margin: 20px 20px 0 20px;
     opacity: 0;
     transition: opacity 1s;
@@ -166,7 +211,7 @@
 .z2 {
     font-family: "Press Start 2P", sans-serif;
     font-size: 1.2em;
-    color: #fff;
+    color: #0b9444;
     margin: 20px 20px 0 20px;
     opacity: 0;
     transition: opacity 1s;
@@ -175,14 +220,14 @@
 .z3 {
     font-family: "VT323", sans-serif;
     font-size: 1.2em;
-    color: #fff;
+    color: #0b9444;
     margin: 0px 20px 0 20px;
     opacity: 0;
     transition: opacity 1s;
 }
 .z4 {
     font-family: "VT323", sans-serif;
-    color: #fff;
+    color: #0b9444;
     margin: 0px 20px 0 20px;
     opacity: 0;
     transition: opacity 1s;
@@ -191,7 +236,7 @@
 .boardicons {
     opacity: 0;
     transition: opacity 1s;
-    color: #fff;
+    color: #000000;
 }
 .iconsz1 {
     position: absolute;
@@ -225,6 +270,7 @@
 
 #board-area {
     padding: 6rem 4.5rem;
+    background-color: #8080804f;
 }
 
 #board-area-heading {
