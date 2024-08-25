@@ -56,11 +56,11 @@
 }
 .card1 {
     background: url("/people/Ansh.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 350px;
 }
 .card1:hover {
     background: url("/people/Ansh.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card1:hover h2 {
     opacity: 1;
@@ -85,11 +85,11 @@
 
 .card3 {
     background: url("/people/Akash.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 380px;
 }
 .card3:hover {
     background: url("/people/Akash.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 400px;
 }
 .card3:hover h2 {
     opacity: 1;
@@ -99,11 +99,11 @@
 }
 .card4 {
     background: url("/people/Yogesh.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 350px;
 }
 .card4:hover {
     background: url("/people/Yogesh.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card4:hover h2 {
     opacity: 1;
@@ -113,11 +113,11 @@
 }
 .card5 {
     background: url("/people/Tanmay.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 350px;
 }
 .card5:hover {
     background: url("/people/Tanmay.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card5:hover h2 {
     opacity: 1;
@@ -127,11 +127,11 @@
 }
 .card6 {
     background: url("/people/Avanish.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 350px;
 }
 .card6:hover {
     background: url("/people/Avanish.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card6:hover h2 {
     opacity: 1;
@@ -156,11 +156,11 @@
 
 .card8 {
     background: url("/people/Rupak.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 350px;
 }
 .card8:hover {
     background: url("/people/Rupak.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card8:hover h2 {
     opacity: 1;
@@ -186,11 +186,11 @@
 
 .card10 {
     background: url("/people/Uday.jpg") center center no-repeat;
-    background-size: 300px;
+    background-size: 340px;
 }
 .card10:hover {
     background: url("/people/Uday.jpg") left center no-repeat;
-    background-size: 350px;
+    background-size: 380px;
 }
 .card10:hover h2 {
     opacity: 1;
@@ -219,7 +219,7 @@
 }
 .z3 {
     font-family: "VT323", sans-serif;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #0b9444;
     margin: 0px 20px 0 20px;
     opacity: 0;
@@ -231,7 +231,7 @@
     margin: 0px 20px 0 20px;
     opacity: 0;
     transition: opacity 1s;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 .boardicons {
     opacity: 0;
@@ -270,7 +270,7 @@
 
 #board-area {
     padding: 6rem 4.5rem;
-    background-color: #8080804f;
+    background-color: #ffff;
 }
 
 #board-area-heading {
