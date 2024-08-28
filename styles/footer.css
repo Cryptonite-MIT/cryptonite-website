@@ -1,93 +1,93 @@
 .footer-description {
-    font-size: 14px;
-    line-height: 24px;
-    margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 10px 0 0 0;
 }
 
 .social-links a {
-    background: #0b9444;
-    color: #fff;
-    margin-right: 10px;
-    border-radius: 50px;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  background: #0b9444;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 50px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .social-links a:hover {
-    background: #1e1e1e;
-    color: #fff;
-    text-decoration: none;
+  background: #1e1e1e;
+  color: #fff;
+  text-decoration: none;
 }
 
 .social-links .icon {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .footer-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-nav i {
-    color: #00d11c;
-    width: 18px;
-    height: 18px;
-    margin: 0 2px 0 -5px;
+  color: #00d11c;
+  width: 18px;
+  height: 18px;
+  margin: 0 2px 0 -5px;
 }
 
 .footer-nav li {
-    padding: 6px 0;
-    display: flex;
-    align-items: center;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer-nav li:first-child {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .footer-nav a {
-    transition: 0.3s;
-    font-size: 15px;
-    color: #363636;
+  transition: 0.3s;
+  font-size: 15px;
+  color: #363636;
 }
 
 .footer-nav a:hover {
-    color: #3273dc;
-    text-decoration: none;
+  color: #3273dc;
+  text-decoration: none;
 }
 
 .copyright {
-    max-width: 100% !important;
-    background: #fff;
+  max-width: 100% !important;
+  background: #fff;
 }
 
 .copyright-text {
-    font-family: sans-serif;
-    font-size: 1rem;
-    padding: 25px 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 25px 0;
 }
 
 #allsocials {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 @media (max-width: 1100px) {
-    #allsocials {
-        gap: 2rem;
-    }
+  #allsocials {
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
-    #allsocials {
-        gap: 1rem;
-    }
+  #allsocials {
+    gap: 1rem;
+  }
 }
