@@ -1,266 +1,312 @@
 .invi {
-    background: none;
-    clear: both;
-    float: none;
-    width: 100%;
-    height: 2px;
-    border: none;
+  background: none;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 2px;
+  border: none;
 }
 
 .containerz1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
 }
 .borderz1 {
-    height: 369px;
-    width: 290px;
-    background: transparent;
-    border-radius: 10px;
-    transition: border 1s;
-    position: relative;
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
 }
 .borderz1:hover {
-    border: 1px solid #fff;
+  border: 1px solid #fff;
 }
 
 .cardz1 {
-    height: 379px;
-    width: 300px;
-    background: #808080;
-    border-radius: 10px;
-    transition: background 0.8s;
-    overflow: hidden;
-    background: #000;
-    box-shadow: 0 70px 63px -60px #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .card0 {
-    background: url("/people/Shreyyyk\ .jpg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Prashant.jpg") center center no-repeat;
+  background-size: 300px;
 }
 .card0:hover {
-    background: url("/people/Shreyyyk\ .jpg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Prashant.jpg") left center no-repeat;
+  background-size: 350px;
 }
 .card0:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card0:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card1 {
-    background: url("/people/Kumud.jpeg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Ansh.jpg") center center no-repeat;
+  background-size: 350px;
 }
 .card1:hover {
-    background: url("/people/Kumud.jpeg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Ansh.jpg") left center no-repeat;
+  background-size: 380px;
 }
 .card1:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card1:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card2 {
-    background: url("/people/Daksh\ .jpg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Rohan\.jpg") center center no-repeat;
+  background-size: 300px;
 }
 .card2:hover {
-    background: url("/people/Daksh\ .jpg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Rohan\.jpg") left center no-repeat;
+  background-size: 350px;
 }
 .card2:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card2:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card3 {
-    background: url("/people/Prabhakar.jpg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Akash.jpg") center center no-repeat;
+  background-size: 380px;
 }
 .card3:hover {
-    background: url("/people/Prabhakar.jpg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Akash.jpg") left center no-repeat;
+  background-size: 400px;
 }
 .card3:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card3:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card4 {
-    background: url("/people/Siddharth\ Mittal.jpg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Yogesh.jpg") center center no-repeat;
+  background-size: 350px;
 }
 .card4:hover {
-    background: url("/people/Siddharth\ Mittal.jpg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Yogesh.jpg") left center no-repeat;
+  background-size: 380px;
 }
 .card4:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card4:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card5 {
-    background: url("/people/Dhruthi.jpg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Tanmay.jpg") center center no-repeat;
+  background-size: 350px;
 }
 .card5:hover {
-    background: url("/people/Dhruthi.jpg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Tanmay.jpg") left center no-repeat;
+  background-size: 380px;
 }
 .card5:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card5:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card6 {
-    background: url("/people/Aditi.jpeg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Avanish.jpg") center center no-repeat;
+  background-size: 350px;
 }
 .card6:hover {
-    background: url("/people/Aditi.jpeg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Avanish.jpg") left center no-repeat;
+  background-size: 380px;
 }
 .card6:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card6:hover .fa {
-    opacity: 1;
+  opacity: 1;
 }
 .card7 {
-    background: url("/people/Sriyans.jpeg") center center no-repeat;
-    background-size: 300px;
+  background: url("/people/Gurmann.jpg") center center no-repeat;
+  background-size: 300px;
 }
 .card7:hover {
-    background: url("/people/Sriyans.jpeg") left center no-repeat;
-    background-size: 350px;
+  background: url("/people/Gurmann.jpg") left center no-repeat;
+  background-size: 350px;
 }
 .card7:hover h2 {
-    opacity: 1;
+  opacity: 1;
 }
 .card7:hover .fa {
-    opacity: 1;
+  opacity: 1;
+}
+
+.card8 {
+  background: url("/people/Rupak.jpg") center center no-repeat;
+  background-size: 350px;
+}
+.card8:hover {
+  background: url("/people/Rupak.jpg") left center no-repeat;
+  background-size: 380px;
+}
+.card8:hover h2 {
+  opacity: 1;
+}
+.card8:hover .fa {
+  opacity: 1;
+}
+
+.card9 {
+  background: url("/people/Nishant.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card9:hover {
+  background: url("/people/Nishant.jpg") left center no-repeat;
+  background-size: 350px;
+}
+.card9:hover h2 {
+  opacity: 1;
+}
+.card9:hover .fa {
+  opacity: 1;
+}
+
+.card10 {
+  background: url("/people/Uday.jpg") center center no-repeat;
+  background-size: 340px;
+}
+.card10:hover {
+  background: url("/people/Uday.jpg") left center no-repeat;
+  background-size: 380px;
+}
+.card10:hover h2 {
+  opacity: 1;
+}
+.card10:hover .fa {
+  opacity: 1;
 }
 
 .z1 {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 1.1em;
-    color: #fff;
-    margin: 20px 20px 0 20px;
-    opacity: 0;
-    transition: opacity 1s;
-    margin-top: 16rem;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 1.1em;
+  color: #0b9444;
+  margin: 20px 20px 0 20px;
+  opacity: 0;
+  transition: opacity 1s;
+  margin-top: 16rem;
 }
 .z2 {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 1.2em;
-    color: #fff;
-    margin: 20px 20px 0 20px;
-    opacity: 0;
-    transition: opacity 1s;
-    margin-top: 16rem;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 1.2em;
+  color: #0b9444;
+  margin: 20px 20px 0 20px;
+  opacity: 0;
+  transition: opacity 1s;
+  margin-top: 16rem;
 }
 .z3 {
-    font-family: "VT323", sans-serif;
-    font-size: 1.2em;
-    color: #fff;
-    margin: 0px 20px 0 20px;
-    opacity: 0;
-    transition: opacity 1s;
+  font-family: "VT323", sans-serif;
+  font-size: 2em;
+  color: #0b9444;
+  margin: 0px 20px 0 20px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 .z4 {
-    font-family: "VT323", sans-serif;
-    color: #fff;
-    margin: 0px 20px 0 20px;
-    opacity: 0;
-    transition: opacity 1s;
-    font-size: 1.2em;
+  font-family: "VT323", sans-serif;
+  color: #0b9444;
+  margin: 0px 20px 0 20px;
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 2em;
 }
 .boardicons {
-    opacity: 0;
-    transition: opacity 1s;
-    color: #fff;
+  opacity: 0;
+  transition: opacity 1s;
+  color: #000000;
 }
 .iconsz1 {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 50px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: -13rem;
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 50px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -13rem;
 }
 .splitTex {
-    font-size: 1.23em;
+  font-size: 1.23em;
 }
 #margin-rep {
-    margin-bottom: -0.06em;
+  margin-bottom: -0.06em;
 }
 #margin-rep-2 {
-    margin-bottom: -1.1em;
+  margin-bottom: -1.1em;
 }
 #margin-rep-3 {
-    margin-bottom: -1.5em;
+  margin-bottom: -1.5em;
 }
 
 #imgfit {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 #board-area {
-    padding: 6rem 4.5rem;
+  padding: 6rem 4.5rem;
+  background-color: #d1cfcf7b;
 }
 
 #board-area-heading {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
 
 .footer-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 1100px) {
-    #board-area {
-        padding: 4rem 4.5rem;
-    }
+  #board-area {
+    padding: 4rem 4.5rem;
+  }
 
-    #board-area-heading {
-        margin-bottom: 3rem;
-    }
+  #board-area-heading {
+    margin-bottom: 3rem;
+  }
 
-    .cards-grid {
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-    }
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
 }
 
 @media (max-width: 700px) {
-    .cards-grid {
-        grid-template-columns: none;
-        justify-content: center;
-    }
+  .cards-grid {
+    grid-template-columns: none;
+    justify-content: center;
+  }
 }
