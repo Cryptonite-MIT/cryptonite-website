@@ -1,0 +1,110 @@
+.member-name-container {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    text-align: center;
+    width: 100%;
+}
+
+.member-name {
+    margin: 0;
+    transition: opacity 0.3s;
+}
+
+.real-name {
+    opacity: 1;
+}
+
+.hacker-alias {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    color: var(--color-accent-emerald);
+    font-size: clamp(1.05rem, 2vw, 1.45rem);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    transform: translateY(2px);
+}
+
+.member-name-container:hover .hacker-alias {
+    opacity: 1;
+    transform: translateY(0);
+    text-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+    color: var(--color-highlight);
+    transition: all 0.3s ease;
+}
+
+.junior-member-slate .member-name-container:hover .hacker-alias,
+.member-card-custom .member-name-container:hover .hacker-alias {
+    opacity: 0;
+    transform: none;
+}
+
+.hacker-alias.long-text {
+    white-space: nowrap;
+    overflow: hidden;
+    mask-image: linear-gradient(to right,
+        rgba(0,0,0,1) 75%,
+        rgba(0,0,0,0)
+    );
+    -webkit-mask-image: linear-gradient(to right,
+        rgba(0,0,0,1) 75%,
+        rgba(0,0,0,0)
+    );
+}
+
+.hacker-alias.long-text:hover {
+    transform: translateY(0);
+    text-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+    color: var(--color-highlight);
+}
+
+
+
+.member-name-container:hover .real-name {
+    opacity: 0;
+    transform: translateY(-2px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.junior-member-slate .member-name-container:hover .real-name,
+.member-card-custom .member-name-container:hover .real-name {
+    opacity: 1;
+    transform: none;
+}
+
+.member-name-container:hover {
+    transform: scale(1.02);
+}
+
+.junior-member-slate .member-name-container:hover,
+.member-card-custom .member-name-container:hover {
+    transform: none;
+}
+
+
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 900px) {
+    .member-name-container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hacker-alias {
+        position: static;
+        display: block;
+        font-size: 1.1rem;
+        opacity: 0.7;
+        margin-top: 0.25rem;
+        color: var(--color-accent-emerald);
+        text-align: center;
+    }
+}

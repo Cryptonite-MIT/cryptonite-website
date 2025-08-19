@@ -1,0 +1,414 @@
+.ctftime-stats-container {
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.ctftime-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.ctftime-header h3 {
+    color: var(--color-highlight);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.ctftime-data-source {
+    padding: 6px 12px;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.data-source-text {
+    color: #10b981;
+    font-size: 0.7rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    text-align: center;
+}
+
+.data-source-text.fallback {
+    color: #ffaa00;
+}
+
+.ctftime-logo-badge {
+    background: #E40913;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.ctftime-logo {
+    height: 24px;
+    width: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.ctftime-profile-link {
+    color: #10b981;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-left: auto;
+}
+
+.ctftime-profile-link:hover {
+    background: rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.5);
+}
+
+.ctftime-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.stat-card {
+    background: #00ff880b;
+    border: 2px solid #00ff8862;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-highlight);
+    margin-bottom: 8px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.stat-label {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.stat-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+}
+
+.ctftime-yearly-progress {
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctftime-yearly-progress h4 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.yearly-chart {
+    min-height: 200px;
+}
+
+.yearly-line-chart {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.chart-area {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: calc(100% - 60px);
+    height: 100%;
+}
+
+.x-axis {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: calc(100% - 60px);
+    height: 30px;
+    z-index: 3;
+}
+
+.x-tick {
+    position: absolute;
+    top: 0;
+    transform: translate(var(--x-align, -50%), 0);
+    margin-top: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.x-tick span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: nowrap;
+}
+
+.y-axis {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    z-index: 3;
+}
+
+.y-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: nowrap;
+    width: 100px;
+    text-align: center;
+    left: -20px;
+}
+
+.y-tick {
+    position: absolute;
+    left: 50px;
+    width: 20px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.y-tick span {
+    position: absolute;
+    left: 25px;
+    top: -8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.7rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.chart-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: visible;
+}
+
+.chart-line {
+    fill: none;
+    stroke: #00ff88;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+}
+
+.chart-area-fill {
+    fill: url(#areaGradient);
+}
+
+.chart-point {
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    background: #00ff88;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.year-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.loading-spinner {
+    color: #00ff88;
+    text-align: center;
+    padding: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+}
+
+.loading-spinner::after {
+    content: '...';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    animation: dots 1.5s infinite;
+    margin-top: 20px;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}
+
+.error-message {
+    color: #ff6b6b;
+    text-align: center;
+    padding: 40px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.retry-btn {
+    background: #00ff88;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+}
+
+.retry-btn:hover {
+    background: #00cc6a;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .ctftime-stats-container {
+        padding: 16px;
+        margin: 16px 0;
+    }
+    
+    .ctftime-header {
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .ctftime-header h3 {
+        font-size: 1.2rem;
+    }
+    
+    .ctftime-profile-link {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        margin-left: 0;
+    }
+    
+    .ctftime-stats-grid {
+        gap: 12px;
+    }
+    
+    .stat-card {
+        padding: 16px;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+    
+    .yearly-line-chart {
+        height: 150px;
+    }
+    
+    .y-axis {
+        width: 40px;
+    }
+    
+    .y-label {
+        font-size: 0.7rem;
+        left: -15px;
+        width: 80px;
+    }
+    
+    .y-tick {
+        left: 35px;
+        width: 15px;
+    }
+    
+    .y-tick span {
+        left: 20px;
+        font-size: 0.6rem;
+    }
+    
+    .chart-area {
+        left: 40px;
+        width: calc(100% - 40px);
+    }
+    
+    .x-axis {
+        left: 40px;
+        width: calc(100% - 40px);
+        margin-top: 50px;
+    }
+    
+    .x-tick span {
+        font-size: 0.7rem;
+    }
+    
+    .chart-svg {
+        left: 0;
+        width: 100%;
+    }
+    
+    .chart-line {
+        stroke-width: 1.5;
+    }
+    
+    .point {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .year-label {
+        font-size: 0.7rem;
+        top: 15px;
+    }
+    
+    .year-bar[title]:hover::after {
+        display: none;
+    }
+    
+    .year-bar[title]:hover::before {
+        display: none;
+    }
+}
