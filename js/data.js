@@ -277,7 +277,7 @@ const achievements = {
         { event: "GIT X IIT Bombay Trust Lab CTF 2025",  result: "1st Place", prize: "25,000 INR",   date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
         { event: "KJSSE CTF",                            result: "1st Place", prize: "15,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_ctf-cybersecurity-activity-7294965557664120834-euXv" },
         { event: "BSides Bangalore B5 CTF",              result: "1st Place", prize: "15,000 INR",   date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
-        { event: "Securicum Independence Day CTF",       result: "1st Place", prize: "10,000 INR",   date: "August 2025",   link: "" },
+        { event: "Securium Independence Day CTF",       result: "1st Place", prize: "10,000 INR",   date: "August 2025",   link: "" },
         { event: "BSides Bangalore W2 CTF",              result: "2nd Place", prize: "7,000 INR",    date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
     ],
     hackathons: [
