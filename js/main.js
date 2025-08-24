@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll('.nav-item');
 const sections = document.querySelectorAll('.data-sector');
 const niteCtfUrl = 'https://nitectf.cryptonitemit.in/';
-const landingCtaMode = 'recruitments'; // nitectf, recruitment, off -- change this to change the landing cta
+const landingCtaMode = 'off'; // nitectf, recruitment, off -- change this to change the landing cta
 
 navItems.forEach(anchor => {
     anchor.setAttribute('data-text', anchor.textContent);
@@ -235,6 +235,19 @@ async function fetchCTFtimeStats() {
                     }
                 }
                 return data;
+            }
+        },
+        {
+            name: 'Direct Fetch',
+            fetch: async (url) => {
+                const response = await fetch(url, {
+                    headers: { 'Accept': 'application/json' },
+                    signal: AbortSignal.timeout(8000),
+                    credentials: 'omit',
+                    mode: 'cors'
+                });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
             }
         }
     ];
