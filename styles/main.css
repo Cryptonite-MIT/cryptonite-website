@@ -198,7 +198,7 @@ html {
 }
 
 .recruitment-btn {
-    display: inline-flex;
+    display: none;
     align-items: center;
     gap: 0.75rem;
     background: linear-gradient(135deg, var(--color-primary-accent), var(--color-accent-emerald));
@@ -243,13 +243,20 @@ html {
 }
 
 .recruitment-btn[href*="nitectf"] {
-    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+    background: linear-gradient(135deg, #0f5d35, #0a2f18);
+    background-clip: border-box;
+    box-shadow: 0 8px 25px rgba(0, 255, 136, 0.15), 0 0 15px rgba(0, 255, 136, 0.08);
+    color: #00ff88;
+    border-color: rgba(0, 255, 136, 0.4);
+    text-shadow: 0 0 5px rgba(0, 255, 136, 0.3);
+    transition: box-shadow 0.4s ease, text-shadow 0.4s ease, border-color 0.4s ease, background 0.4s ease;
 }
 
 .recruitment-btn[href*="nitectf"]:hover {
-    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.4);
-    border-color: #60a5fa;
+    background: linear-gradient(135deg, #116d3f, #0c3f20);
+    box-shadow: 0 12px 35px rgba(0, 255, 136, 0.25), 0 0 25px rgba(0, 255, 136, 0.15);
+    border-color: rgba(0, 255, 136, 0.5);
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
 }
 
 @media (max-width: 900px) {

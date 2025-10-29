@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll('.nav-item');
 const sections = document.querySelectorAll('.data-sector');
 const niteCtfUrl = 'https://nitectf.cryptonitemit.in/';
-const landingCtaMode = 'off'; // nitectf, recruitment, off -- change this to change the landing cta
+const landingCtaMode = 'off';
 
 navItems.forEach(anchor => {
     anchor.setAttribute('data-text', anchor.textContent);
@@ -67,11 +67,11 @@ if (footerTextElement) {
 
 document.addEventListener('DOMContentLoaded', function() {
     displayFallbackData();
-    
+
     setTimeout(() => {
         fetchCTFtimeStats();
     }, 1000);
-    
+
     initializeNavigation();
     initializeScrollEffects();
     initializeFooter();
@@ -184,17 +184,17 @@ function initializeFooter() {
 function initializeLandingCTA() {
     const btn = document.querySelector('.recruitment-btn');
     if (!btn) return;
-    
+
     if (landingCtaMode === 'nitectf') {
+        btn.style.display = 'inline-flex';
         btn.setAttribute('href', niteCtfUrl);
         btn.setAttribute('target', '_blank');
-        btn.innerHTML = '<i class="fas fa-bolt"></i> niteCTF IS LIVE!';
-    } else if (landingCtaMode === 'recruitments') {
+        btn.innerHTML = '<i class="fas fa-shield-alt"></i> niteCTF IS LIVE!';
+    } else if (landingCtaMode === 'recruitment') {
+        btn.style.display = 'inline-flex';
         btn.setAttribute('href', 'https://apply.cryptonitemit.in');
         btn.setAttribute('target', '_blank');
         btn.innerHTML = '<i class="fas fa-users"></i> We\'re Recruiting!';
-    } else if (landingCtaMode === 'off') {
-        btn.remove();
     }
 }
 
@@ -205,7 +205,7 @@ async function fetchCTFtimeStats() {
     yearlyChart.innerHTML = '<div class="loading-spinner">Loading CTFtime data...</div>';
 
     const targetUrl = 'https://ctftime.org/api/v1/teams/62713/';
-    
+
     const proxyStrategies = [
         {
             name: 'CORS Proxy 1',
@@ -291,15 +291,15 @@ async function fetchCTFtimeStats() {
     try {
         const result = await Promise.any(requests);
         clearTimeout(globalTimeout);
-        
+
         displayCTFtimeStats(result.data);
-        
+
 
     } catch (error) {
         if (!successFound) {
             clearTimeout(globalTimeout);
             console.warn('All strategies failed:', error);
-            
+
             handleFetchError(error);
         }
     } finally {
@@ -356,10 +356,10 @@ function displayFallbackData() {
     const fallbackData = {
         rating: {
             "2025": {
-                "rating_place": 28,
+                "rating_place": 39,
                 "organizer_points": 79.74,
-                "rating_points": 456.813339549,
-                "country_place": 2
+                "rating_points": 470.234994383,
+                "country_place": 3
             },
             "2024": {
                 "rating_place": 65,
