@@ -185,17 +185,17 @@ const boardMembers = [
 ];
 
 const boardMembers3rdYear = [
-    { name: "Aditya Ram",                 alias: "{snapskillz}",     avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Adwait Gupta",               alias: "{pookiemon}",      avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Dhruva Deepak",              alias: "{kua}",            avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Guru Asrith Nakka",          alias: "{masterraider}",   avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Kaaviya Kalyanakumar",       alias: "{enigmatronix13}", avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Meeti Mehta",                alias: "{mm}",             avatar: "", github: "", instagram: "",},
-    { name: "Misha Jain",                 alias: "{notamilkshake}",  avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Poorvi Kanodia",             alias: "{Lun4n1v3rs3}",    avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Shantanu Bhargava",          alias: "{hackerone}",      avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Shreyith Gomes",             alias: "{shrey_07}",       avatar: "", linkedin: "", github: "", instagram: "",},
-    { name: "Uttam Singh Somvanshi",      alias: "{azure}",          avatar: "", linkedin: "", github: "", instagram: "",},
+    { name: "Aditya Ram",            alias: "{snapskillz}",     avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Adwait Gupta",          alias: "{pookiemon}",      avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Dhruva Deepak",         alias: "{kua_23}",         avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Guru Asrith Nakka",     alias: "{masterraider}",   avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Kaaviya Kalyanakumar",  alias: "{enigmatronix13}", avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Meeti Mehta",           alias: "{mm}",             avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Misha Jain",            alias: "{notamilkshake}",  avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Poorvi Kanodia",        alias: "{Lun4n1v3rs3}",    avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Shantanu Bhargava",     alias: "{hackerone}",      avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Shreyith Gomes",        alias: "{shrey_07}",       avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Uttam Singh Somvanshi", alias: "{azure}",          avatar: "", linkedin: "", github: "", instagram: "", },
 ];
 
 const subsystemsGrid = document.getElementById('subsystems-grid');
@@ -271,24 +271,28 @@ window.addEventListener('resize', () => {
 
 const achievements = {
     ctfPerformance: [
-        { event: "NCIIPC & AICTE Pentathon 2025",        result: "1st Place", prize: "2,50,000 INR", date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_pentathon2025-cybersecurity-activity-7327746895156563968-9Suw" },
-        { event: "RVCE X IIT Bombay Trust Lab CTF 2024", result: "2nd Place", prize: "30,000 INR",   date: "June 2024",     link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
-        { event: "CRAW CTF at Prometeo, IIT Jodhpur",    result: "1st Place", prize: "25,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_crawsec-prometeo2025-itinnovation-activity-7287822560791015427-GUej" },
-        { event: "GIT X IIT Bombay Trust Lab CTF 2025",  result: "1st Place", prize: "25,000 INR",   date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
-        { event: "KJSSE CTF",                            result: "1st Place", prize: "15,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_ctf-cybersecurity-activity-7294965557664120834-euXv" },
-        { event: "BSides Bangalore B5 CTF",              result: "1st Place", prize: "15,000 INR",   date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
-        { event: "Securium Independence Day CTF",        result: "1st Place", prize: "10,000 INR",   date: "August 2025",   link: "" },
-        { event: "Securium Flag Hunter 2.0 CTF",         result: "3rd Place", prize: "500 USD",      date: "October 2025",  link: "" },
-        { event: "BSides Bangalore W2 CTF",              result: "2nd Place", prize: "7,000 INR",    date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
+        { event: "NCIIPC & AICTE Pentathon 2025",         result: "1st Place", prize: "2,50,000 INR", date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_pentathon2025-cybersecurity-activity-7327746895156563968-9Suw" },
+        { event: "Securium Flag Hunter 2.0 CTF",          result: "3rd Place", prize: "44,000 INR",   date: "October 2025",  link: "" },
+        { event: "CSAW Embedded Security Challenge",      result: "1st Place", prize: "30,000 INR",   date: "November 2025", link: "https://github.com/TrustworthyComputing/csaw_esc_2025/blob/main/Finals-Leaderboard.md" },
+        { event: "RVCE X IIT Bombay Trust Lab CTF 2024",  result: "2nd Place", prize: "30,000 INR",   date: "June 2024",     link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
+        { event: "PES CRYOVault CTF",                     result: "2nd Place", prize: "27,000 INR",   date: "November 2025", link: "" },
+        { event: "SuperTeam CTF",                         result: "3rd Place", prize: "27,000 INR",   date: "July 2025",     link: "https://www.instagram.com/p/DOSqJG7kcSG/" },
+        { event: "CRAW CTF at Prometeo, IIT Jodhpur",     result: "1st Place", prize: "25,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_crawsec-prometeo2025-itinnovation-activity-7287822560791015427-GUej" },
+        { event: "GIT X IIT Bombay Trust Lab CTF 2025",   result: "1st Place", prize: "25,000 INR",   date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
+        { event: "KJSSE CTF",                             result: "1st Place", prize: "15,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_ctf-cybersecurity-activity-7294965557664120834-euXv" },
+        { event: "BSides Bangalore B5 CTF",               result: "1st Place", prize: "15,000 INR",   date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
+        { event: "Securium Independence Day CTF",         result: "1st Place", prize: "10,000 INR",   date: "August 2025",   link: "" },
+        { event: "CruXipher CTF, BITS Hyderabad",         result: "1st Place", prize: "10,000 INR",   date: "November 2025", link: "" },
+        { event: "BSides Bangalore W2 CTF",               result: "2nd Place", prize: "7,000 INR",    date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
     ],
     hackathons: [
-        { event: "DSCI Cyber Security Grand Challenge",   result: "Qualified", prize: "5,00,000 INR", date: "June 2025", link: "https://static.mygov.in/static/s3fs-public/mygov_1747831020122933441.pdf" },
+        { event: "DSCI Cyber Security Grand Challenge",   result: "Qualified", prize: "5,00,000 INR", date: "June 2025",     link: "https://static.mygov.in/static/s3fs-public/mygov_1747831020122933441.pdf" },
         { event: "Smart India Hackathon 2023 (PS 1454)",  result: "1st Place", prize: "1,00,000 INR", date: "December 2023", link: "https://www.instagram.com/p/C1KBjH9vjXr/" },
         { event: "Smart India Hackathon 2024 (PS 1749)",  result: "1st Place", prize: "1,00,000 INR", date: "December 2024", link: "https://www.linkedin.com/posts/cryptonite-mit_team-cryptonites-nitewatch-clinched-the-activity-7274997714784845824-d71d" },
         { event: "Cyber Crimes Conclave, IISc Bangalore", result: "2nd Place", prize: "1,00,000 INR", date: "February 2024", link: "https://www.instagram.com/p/C5bch3gtn9O/" },
         { event: "AICS ICONIP CyberAI Cup 2023",          result: "1st Place", prize: "3,000 NZD",    date: "November 2023", link: "" },
         { event: "AICS ICONIP CyberAI Cup 2024",          result: "3rd Place", prize: "1,000 NZD",    date: "November 2024", link: "" },
-        { event: "AICS ICONIP CyberAI Cup 2025",          result: "3rd Place", prize: "3,000 NZD",    date: "November 2025", link: "" }
+        { event: "AICS ICONIP CyberAI Cup 2025",          result: "3rd Place", prize: "500 NZD",      date: "November 2025", link: "https://www.linkedin.com/posts/manipal-institute-of-technology_mitmanipal-manipalinstituteoftechnology-activity-7394263130790461440-RT9N" }
     ]
 };
 
