@@ -90,7 +90,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/harshith-leader.webp",
         linkedin: "https://www.linkedin.com/in/barri-harshith-5196a7252/",
         github: "https://github.com/Wixter07",
-        instagram: "https://www.instagram.com/sort_of_an_individualist/",
+        instagram: "",
         quote: "{wixter_07}",
         domains: ["Leadership", "Reverse Engineering", "Cryptography", "Attack/Defense"]
     },
@@ -156,7 +156,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/krish-hardware-ad.webp",
         linkedin: "https://www.linkedin.com/in/krish-pandey-0bba4133b/",
         github: "https://github.com/vikaran101",
-        instagram: "https://www.instagram.com/krees_baba/",
+        instagram: "",
         quote: "{vikaran}",
         domains: ["Attack/Defense", "Hardware Security", "Reverse Engineering", "Web Exploitation"]
     },
