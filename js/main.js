@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll('.nav-item');
 const sections = document.querySelectorAll('.data-sector');
 const niteCtfUrl = 'https://nitectf.cryptonitemit.in/';
-const landingCtaMode = 'off';
+const landingCtaMode = 'nitectf';
 
 navItems.forEach(anchor => {
     anchor.setAttribute('data-text', anchor.textContent);
