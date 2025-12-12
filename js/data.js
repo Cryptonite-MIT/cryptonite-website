@@ -123,7 +123,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/aayush-reverse.webp",
         linkedin: "https://www.linkedin.com/in/aayushbarhate/",
         github: "https://github.com/AayushBarhate",
-        instagram: "https://www.instagram.com/aayush.barhate/",
+        instagram: "",
         quote: "{al1a5}",
         domains: ["Reverse Engineering", "Digital Forensics", "Hardware Security", "Network Security"]
     },
@@ -167,7 +167,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/lakshit-forensics.webp",
         linkedin: "https://linkedin.com/in/lakshitverma",
         github: "https://github.com/vee1e",
-        instagram: "https://instagram.com/lakshitdotverma",
+        instagram: "",
         quote: "{lvert}",
         domains: [ "Digital Forensics", "Reverse Engineering", "Hardware Security", ]
     },
