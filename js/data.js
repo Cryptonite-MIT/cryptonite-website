@@ -123,7 +123,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/aayush-reverse.webp",
         linkedin: "https://www.linkedin.com/in/aayushbarhate/",
         github: "https://github.com/AayushBarhate",
-        instagram: "https://www.instagram.com/aayush.barhate/",
+        instagram: "",
         quote: "{al1a5}",
         domains: ["Reverse Engineering", "Digital Forensics", "Hardware Security", "Network Security"]
     },
@@ -167,7 +167,7 @@ const boardMembers = [
         avatar: "assets/board-photos/25-26/lakshit-forensics.webp",
         linkedin: "https://linkedin.com/in/lakshitverma",
         github: "https://github.com/vee1e",
-        instagram: "https://instagram.com/lakshitdotverma",
+        instagram: "",
         quote: "{lvert}",
         domains: [ "Digital Forensics", "Reverse Engineering", "Hardware Security", ]
     },
@@ -275,7 +275,6 @@ const achievements = {
         { event: "Securium Flag Hunter 2.0 CTF",          result: "3rd Place", prize: "44,000 INR",   date: "October 2025",  link: "" },
         { event: "CSAW Embedded Security Challenge",      result: "1st Place", prize: "30,000 INR",   date: "November 2025", link: "https://github.com/TrustworthyComputing/csaw_esc_2025/blob/main/Finals-Leaderboard.md" },
         { event: "RVCE X IIT Bombay Trust Lab CTF 2024",  result: "2nd Place", prize: "30,000 INR",   date: "June 2024",     link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
-        { event: "PES CRYOVault CTF",                     result: "2nd Place", prize: "27,000 INR",   date: "November 2025", link: "" },
         { event: "SuperTeam CTF",                         result: "3rd Place", prize: "27,000 INR",   date: "July 2025",     link: "https://www.instagram.com/p/DOSqJG7kcSG/" },
         { event: "CRAW CTF at Prometeo, IIT Jodhpur",     result: "1st Place", prize: "25,000 INR",   date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_crawsec-prometeo2025-itinnovation-activity-7287822560791015427-GUej" },
         { event: "GIT X IIT Bombay Trust Lab CTF 2025",   result: "1st Place", prize: "25,000 INR",   date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
