@@ -191,6 +191,7 @@ const boardMembers3rdYear = [
     { name: "Guru Asrith Nakka",     alias: "{masterraider}",   avatar: "", linkedin: "", github: "", instagram: "", },
     { name: "Kaaviya Kalyanakumar",  alias: "{enigmatronix13}", avatar: "", linkedin: "", github: "", instagram: "", },
     { name: "Meeti Mehta",           alias: "{mm}",             avatar: "", linkedin: "", github: "", instagram: "", },
+    { name: "Noorain Eqbal",         alias: "{arikazo}",        avatar: "", linkedin: "", github: "", instagram: "", },
     { name: "Misha Jain",            alias: "{notamilkshake}",  avatar: "", linkedin: "", github: "", instagram: "", },
     { name: "Poorvi Kanodia",        alias: "{Lun4n1v3rs3}",    avatar: "", linkedin: "", github: "", instagram: "", },
     { name: "Shantanu Bhargava",     alias: "{hackerone}",      avatar: "", linkedin: "", github: "", instagram: "", },
