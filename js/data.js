@@ -287,7 +287,8 @@ const achievements = {
         { event: "Securium Independence Day CTF",         result: "1st Place", prize: "10,000 INR",                    date: "August 2025",   link: "" },
         { event: "CruXipher CTF, BITS Hyderabad",         result: "1st Place", prize: "10,000 INR",                    date: "November 2025", link: "" },
         { event: "BSides Bangalore W2 CTF",               result: "2nd Place", prize: "7,000 INR",                     date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
-        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "Prizes worth 75,000 INR",          date: "March 2026",    link: "" }
+        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "Prizes worth 75,000 INR",       date: "March 2026",    link: "" },
+        { event: "CyberSiege CTF 2026",                   result: "1st Place",  prize: "12,000 INR",                   date: "March 2026",    link: "" }
     ],
     hackathons: [
         { event: "DSCI Cyber Security Grand Challenge",   result: "Qualified", prize: "5,00,000 INR",                  date: "June 2025",     link: "https://static.mygov.in/static/s3fs-public/mygov_1747831020122933441.pdf" },
