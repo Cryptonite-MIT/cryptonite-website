@@ -276,6 +276,7 @@ const achievements = {
     ctfPerformance: [
         { event: "NCIIPC & AICTE Pentathon 2025",         result: "1st Place", prize: "2,50,000 INR",                  date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_pentathon2025-cybersecurity-activity-7327746895156563968-9Suw" },
         { event: "ISEA ISAP CTF Hackathon",               result: "1st Place", prize: "2,00,000 INR",                  date: "January 2026",  link: "https://www.instagram.com/p/DTnsgtXjTt-" },
+        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "Prizes worth 75,000 INR",       date: "March 2026",    link: "" },
         { event: "Securium Flag Hunter 2.0 CTF",          result: "3rd Place", prize: "44,000 INR",                    date: "October 2025",  link: "" },
         { event: "CSAW Embedded Security Challenge",      result: "1st Place", prize: "30,000 INR",                    date: "November 2025", link: "https://github.com/TrustworthyComputing/csaw_esc_2025/blob/main/Finals-Leaderboard.md" },
         { event: "RVCE X IIT Bombay Trust Lab CTF 2024",  result: "2nd Place", prize: "30,000 INR",                    date: "June 2024",     link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
@@ -284,11 +285,10 @@ const achievements = {
         { event: "GIT X IIT Bombay Trust Lab CTF 2025",   result: "1st Place", prize: "25,000 INR",                    date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
         { event: "KJSSE CTF",                             result: "1st Place", prize: "15,000 INR",                    date: "February 2025", link: "https://www.linkedin.com/posts/cryptonite-mit_ctf-cybersecurity-activity-7294965557664120834-euXv" },
         { event: "BSides Bangalore B5 CTF",               result: "1st Place", prize: "15,000 INR",                    date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
+        { event: "CyberSiege CTF 2026",                   result: "1st Place", prize: "12,000 INR",                    date: "March 2026",    link: "" },
         { event: "Securium Independence Day CTF",         result: "1st Place", prize: "10,000 INR",                    date: "August 2025",   link: "" },
         { event: "CruXipher CTF, BITS Hyderabad",         result: "1st Place", prize: "10,000 INR",                    date: "November 2025", link: "" },
-        { event: "BSides Bangalore W2 CTF",               result: "2nd Place", prize: "7,000 INR",                     date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" },
-        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "Prizes worth 75,000 INR",       date: "March 2026",    link: "" },
-        { event: "CyberSiege CTF 2026",                   result: "1st Place",  prize: "12,000 INR",                   date: "March 2026",    link: "" }
+        { event: "BSides Bangalore W2 CTF",               result: "2nd Place", prize: "7,000 INR",                     date: "June 2025",     link: "https://www.linkedin.com/posts/cryptonite-mit_b5ctf-w2ctf-bsidesbangalore-activity-7353522564335353859-kiuo" }
     ],
     hackathons: [
         { event: "DSCI Cyber Security Grand Challenge",   result: "Qualified", prize: "5,00,000 INR",                  date: "June 2025",     link: "https://static.mygov.in/static/s3fs-public/mygov_1747831020122933441.pdf" },
