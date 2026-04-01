@@ -955,7 +955,7 @@
 }
 
 #sector-achievements .achievement-header .achievement-prize {
-    text-align: right;
+    text-align: center;
 }
 
 #sector-achievements .achievement-header .achievement-event {
@@ -985,7 +985,7 @@
 #sector-achievements .achievement-prize {
     font-weight: 700;
     color: var(--color-highlight);
-    text-align: right;
+    text-align: center;
     white-space: nowrap;
 }
 
