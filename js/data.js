@@ -276,7 +276,7 @@ const achievements = {
     ctfPerformance: [
         { event: "NCIIPC & AICTE Pentathon 2025",         result: "1st Place", prize: "2,50,000 INR",                  date: "May 2025",      link: "https://www.linkedin.com/posts/cryptonite-mit_pentathon2025-cybersecurity-activity-7327746895156563968-9Suw" },
         { event: "ISEA ISAP CTF Hackathon",               result: "1st Place", prize: "2,00,000 INR",                  date: "January 2026",  link: "https://www.instagram.com/p/DTnsgtXjTt-" },
-        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "Prizes worth 75,000 INR",       date: "March 2026",    link: "" },
+        { event: "Winja CTF (Online Division)",           result: "1st Place", prize: "75,000 INR (in kind)",          date: "March 2026",    link: "" },
         { event: "Securium Flag Hunter 2.0 CTF",          result: "3rd Place", prize: "44,000 INR",                    date: "October 2025",  link: "" },
         { event: "CSAW Embedded Security Challenge",      result: "1st Place", prize: "30,000 INR",                    date: "November 2025", link: "https://github.com/TrustworthyComputing/csaw_esc_2025/blob/main/Finals-Leaderboard.md" },
         { event: "RVCE X IIT Bombay Trust Lab CTF 2024",  result: "2nd Place", prize: "30,000 INR",                    date: "June 2024",     link: "https://www.linkedin.com/posts/cryptonite-mit_ctf2025-cybersecurity-hacktheflag-activity-7330500497231007744-py_6" },
