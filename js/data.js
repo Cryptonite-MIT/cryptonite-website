@@ -211,7 +211,6 @@ const boardMembers3rdYear = [
     { name: "Arun Anand",            alias: "{blueknight2345}",         avatar: "", linkedin: "", github: "", instagram: "" },
     { name: "Neha Varadharajan",     alias: "{nayhah}",                 avatar: "", linkedin: "", github: "", instagram: "" },
     { name: "Pratham Shah",          alias: "{attentionisallineed}",    avatar: "", linkedin: "", github: "", instagram: "" },
-    { name: "Sambhavit Anand",       alias: "{guitaristsam}",           avatar: "", linkedin: "", github: "", instagram: "" },
     { name: "Shakthi Rohan R",       alias: "{dunruh}",                 avatar: "", linkedin: "", github: "", instagram: "" },
     { name: "Shreyas Nayak",         alias: "{chinappaswami}",          avatar: "", linkedin: "", github: "", instagram: "" },
     { name: "Shrikrishna Bhaktha",   alias: "{explioit3r}",             avatar: "", linkedin: "", github: "", instagram: "" }
